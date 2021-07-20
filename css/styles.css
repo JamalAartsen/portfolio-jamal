@@ -1,0 +1,172 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 5.625rem; /* 16px = 100% = 1em */
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #A68868;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #b09578;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #A68868;
+}
+
+a {
+  color: #A68868;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.footer-img:hover {
+  opacity: 0.3;
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+  border: dotted #90664b 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.top-container {
+  background-color: #FAEBE0;
+  position: relative;
+  padding-top: 100px;
+  background-image: url("middle-earth.jpg");
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #FAEBE0;
+  padding: 50px 0 20px;
+}
+
+.bottom-ring {
+  position: absolute;
+  left: 250px;
+  bottom: 320px;
+}
+
+.top-android-fancy {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.android-development-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.designing-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.hobbit-image {
+  height: 300px;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  color: #A68868;
+  font-size: 0.75rem;
+  padding-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.icons8-text {
+  font-family: 'Montserrat', sans-serif;
+  color: #A68868;
+  font-size: 0.75rem;
+}
+
+.icons8-link {
+  text-decoration: underline;
+}
+
+.link-flaticon {
+  text-decoration: underline;
+}
+
+.icons-flaticon {
+  font-family: 'Montserrat', sans-serif;
+  color: #A68868;
+  font-size: 0.75rem;
+  padding-bottom: 20px;
+}
+
+.links {
+  width: 30%;
+  margin: auto;
+}
+
+.subtitle {
+  padding-bottom: 100px;
+}
+
+.btn {
+  background: #b09578;
+  background-image: -webkit-linear-gradient(top, #b09578, #A68868);
+  background-image: -moz-linear-gradient(top, #b09578, #A68868);
+  background-image: -ms-linear-gradient(top, #b09578, #A68868);
+  background-image: -o-linear-gradient(top, #b09578, #A68868);
+  background-image: linear-gradient(to bottom, #b09578, #A68868);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #A68868;
+  background-image: -webkit-linear-gradient(top, #A68868, #b09578);
+  background-image: -moz-linear-gradient(top, #A68868, #b09578);
+  background-image: -ms-linear-gradient(top, #A68868, #b09578);
+  background-image: -o-linear-gradient(top, #A68868, #b09578);
+  background-image: linear-gradient(to bottom, #A68868, #b09578);
+  text-decoration: none;
+}
